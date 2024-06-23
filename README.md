@@ -70,7 +70,6 @@ tant que condition faire
 Le pseudocode est une description textuelle des algorithmes utilisant un langage informel. Les diagrammes de flux représentent graphiquement les étapes d'un algorithme.
 ```
 # Pseudo code
-
 Algorithme SommeNEntiers
   Entrée : Un entier n
   Sortie : La somme des entiers de 1 à n
@@ -81,7 +80,7 @@ Algorithme SommeNEntiers
   fin pour
   retourner somme
 ```
-**Diagramme de flux**
+**Diagramme de flux :**
 
 
 ![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagram-de-flux.png)
