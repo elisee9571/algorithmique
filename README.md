@@ -13,16 +13,92 @@ La programmation consiste à implémenter des algorithmes dans un langage de pro
 ## 2. Notions de base
 ### Variables et types de données :
 Les variables sont des emplacements de mémoire pour stocker des données. Les types de données courants incluent les entiers, les flottants, les caractères et les booléens.
+```
+a = 10; # integer (entier)
+b = 3.14; # float (decimal)
+c = 'Hello'; # string (chaîne de caractères)
+d = True # boolean
+```
 
 ### Opérations de base :
-Les opérations incluent les opérations arithmétiques (addition, soustraction, multiplication, division), les opérations de comparaison (égal à, supérieur à, inférieur à) et les opérations logiques (et, ou, non).
+Les opérations incluent les opérations arithmétiques (addition, soustraction, multiplication, division), les opérations de comparaison (égal à, different de, supérieur à, inférieur à) et les opérations logiques (et, ou).
+```
+# Opérations arithmétiques
+a + b; # addition
+a - b; # soustraction
+a * b; # multiplication
+a / b; # division
+
+# Opérations de comparaisons
+a == b; # egal à
+a != b; # different de
+a > b; # superieur à
+a < b; # inferieur à
+
+# Opérations logiques
+a && b; # AND
+a || b; # OR
+```
 
 ### Structures de contrôle :
-Les structures de contrôle permettent de diriger le flux d'exécution d'un programme. Les structures conditionnelles (if, else) permettent d'exécuter des blocs de code selon des conditions. Les boucles (for, while) permettent de répéter des blocs de code.
+Les structures de contrôle permettent de diriger le flux d'exécution d'un programme. 
+
+- **Les structures conditionnelles :**
+(if, else) permettent d'exécuter des blocs de code selon des conditions.
+```
+# Stuctures conditionnelles
+if a > b
+  ...
+else
+ ...
+
+```
+
+- **Les boucles :**
+(for, while) permettent de répéter des blocs de code.
+```
+# Boucles for
+for i in range(5)
+  ...
+
+# Boucles While
+compteur = 0;
+while compteur < 5
+  ...
+  compteur = compteur + 1; # Attention au boucle infini avec while
+```
 
 ## 3. Conception d'algorithmes
 ### Pseudocode et diagrammes de flux :
 Le pseudocode est une description textuelle des algorithmes utilisant un langage informel. Les diagrammes de flux représentent graphiquement les étapes d'un algorithme.
+```
+# Pseudo code
+
+Algo sommeTableau
+  Entrée : tableau T de n éléments
+  Sortie : somme des éléments de T
+
+  somme <- 0
+  pour i de 0 à n-1 faire
+    somme <- somme + T[i]
+  fin pour
+  retourner somme
+
+# Diagramme de flux
+flowchart TD
+    A[Démarrer] --> B[Initialiser gauche à 0 et droite à longueur de la liste - 1]
+    B --> C{gauche <= droite}
+    C -->|Oui| D[Calculer milieu = (gauche + droite) // 2]
+    D --> E{arr[milieu] == x}
+    E -->|Oui| F[Afficher milieu et Terminer]
+    E -->|Non| G{arr[milieu] < x}
+    G -->|Oui| H[Définir gauche à milieu + 1]
+    G -->|Non| I[Définir droite à milieu - 1]
+    H --> J
+    I --> J
+    J --> C
+    C -->|Non| K[Afficher -1 (élément non trouvé) et Terminer]
+```
 
 ### Techniques de conception :
 - **Diviser pour régner :** 
