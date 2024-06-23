@@ -34,7 +34,7 @@ Une fonction qui s'appelle elle-même pour résoudre des sous-problèmes identiq
 - **Programmation dynamique :**
 Résoudre des sous-problèmes et stocker leurs solutions pour éviter des calculs redondants.
 
-**Analyse de complexité :**
+### Analyse de complexité :
 
 - **Complexité temporelle :**
 Temps nécessaire à l'exécution de l'algorithme (exprimé en fonction de la taille de l'entrée, comme O(n), O(log n)).
@@ -43,82 +43,136 @@ Temps nécessaire à l'exécution de l'algorithme (exprimé en fonction de la ta
 Espace mémoire nécessaire à l'exécution de l'algorithme.
 
 ## 4. Structures de données
-**Tableaux et listes :**
+### Tableaux et listes :
 
-Tableaux : Structures de données linéaires avec une taille fixe. Accès rapide aux éléments mais insertion et suppression coûteuses.
-Listes : Structures de données linéaires avec une taille dynamique. Insertion et suppression rapides mais accès plus lent.
-Piles et files :
+- **Tableaux :**
+Structures de données linéaires avec une taille fixe. Accès rapide aux éléments mais insertion et suppression coûteuses.
 
-Piles (LIFO) : Dernier arrivé, premier sorti. Utilisées dans des applications comme l'évaluation d'expressions.
-Files (FIFO) : Premier arrivé, premier sorti. Utilisées dans des applications comme la gestion des tâches.
-Arbres et graphes :
+- **Listes :**
+Structures de données linéaires avec une taille dynamique. Insertion et suppression rapides mais accès plus lent.
 
-Arbres : Structures hiérarchiques avec un nœud racine et des nœuds enfants. Utilisés dans des algorithmes de recherche et des structures de données comme les arbres binaires de recherche.
-Graphes : Collections de nœuds connectés par des arêtes. Utilisés dans des algorithmes de réseaux et de parcours.
-Tables de hachage :
+### Piles et files :
+
+- **Piles (LIFO) :**
+Dernier arrivé, premier sorti. Utilisées dans des applications comme l'évaluation d'expressions.
+
+- **Files (FIFO) :**
+Premier arrivé, premier sorti. Utilisées dans des applications comme la gestion des tâches.
+
+### Arbres et graphes :
+
+- **Arbres :**
+Structures hiérarchiques avec un nœud racine et des nœuds enfants. Utilisés dans des algorithmes de recherche et des structures de données comme les arbres binaires de recherche.
+
+- **Graphes :**
+Collections de nœuds connectés par des arêtes. Utilisés dans des algorithmes de réseaux et de parcours.
+
+### Tables de hachage :
 Une structure de données qui mappe des clés à des valeurs pour un accès rapide. Utilisée dans des applications comme la mise en cache et les bases de données.
 
 ## 5. Algorithmes de tri et de recherche
-**Algorithmes de tri :**
+### Algorithmes de tri :
 
-Tri à bulles : Compare et échange les éléments adjacents.
-Tri par insertion : Insère chaque élément à sa place correcte.
-Tri rapide (Quicksort) : Divise pour régner, utilise un pivot pour diviser la liste.
-Tri fusion (Mergesort) : Divise la liste en sous-listes, trie et fusionne.
+- **Tri à bulles :**
+Compare et échange les éléments adjacents.
 
-**Algorithmes de recherche :**
+- **Tri par insertion :**
+Insère chaque élément à sa place correcte.
 
-Recherche linéaire : Parcourt chaque élément jusqu'à trouver l'élément recherché.
-Recherche dichotomique (binaire) : Divise la liste en deux à chaque étape, recherche dans la moitié appropriée.
+- **Tri rapide (Quicksort) :**
+Divise pour régner, utilise un pivot pour diviser la liste.
+
+- **Tri fusion (Mergesort) :**
+Divise la liste en sous-listes, trie et fusionne.
+
+### Algorithmes de recherche :
+
+- **Recherche linéaire :**
+Parcourt chaque élément jusqu'à trouver l'élément recherché.
+
+- **Recherche dichotomique (binaire) :**
+Divise la liste en deux à chaque étape, recherche dans la moitié appropriée.
 
 ## 6. Algorithmes de graphes
-**Représentation des graphes :**
+### Représentation des graphes :
 
-Listes d'adjacence : Chaque nœud stocke une liste de ses voisins.
-Matrices d'adjacence : Tableau à deux dimensions représentant les connexions.
+- **Listes d'adjacence :**
+Chaque nœud stocke une liste de ses voisins.
 
-**Parcours de graphes :**
+- **Matrices d'adjacence :**
+Tableau à deux dimensions représentant les connexions.
 
-DFS (Depth-First Search) : Parcourt les nœuds en profondeur.
-BFS (Breadth-First Search) : Parcourt les nœuds en largeur.
+### Parcours de graphes :
 
-**Algorithmes de chemin minimal :**
+- **DFS (Depth-First Search) :**
+Parcourt les nœuds en profondeur.
 
-Dijkstra : Trouve le chemin le plus court à partir d'un nœud source vers tous les autres nœuds.
-Bellman-Ford : Gère les graphes avec des poids négatifs.
+- **BFS (Breadth-First Search) :**
+Parcourt les nœuds en largeur.
 
-**Algorithmes de parcours de graphes :**
+### Algorithmes de chemin minimal :
 
-Kruskal : Trouve l'arbre couvrant minimum en utilisant les arêtes les moins coûteuses.
-Prim : Développe l'arbre couvrant minimum à partir d'un nœud initial.
+- **Dijkstra :**
+Trouve le chemin le plus court à partir d'un nœud source vers tous les autres nœuds.
+
+- **Bellman-Ford :**
+Gère les graphes avec des poids négatifs.
+
+### Algorithmes de parcours de graphes :
+
+- **Kruskal :**
+Trouve l'arbre couvrant minimum en utilisant les arêtes les moins coûteuses.
+
+- **Prim :**
+Développe l'arbre couvrant minimum à partir d'un nœud initial.
 
 ## 7. Algorithmes avancés
 
-**Programmation dynamique :**
+### Programmation dynamique :
 
-Problème du sac à dos : Trouve la meilleure combinaison d'objets pour maximiser la valeur tout en respectant une contrainte de poids.
-Sous-séquence commune maximale : Trouve la plus longue sous-séquence commune entre deux séquences.
+- **Problème du sac à dos :**
+Trouve la meilleure combinaison d'objets pour maximiser la valeur tout en respectant une contrainte de poids.
 
-**Backtracking :**
+- **Sous-séquence commune maximale :**
+Trouve la plus longue sous-séquence commune entre deux séquences.
 
-Problème des N reines : Place N reines sur un échiquier de taille NxN sans qu'elles ne se menacent.
-Sudoku : Résout le puzzle en remplissant les cases tout en respectant les contraintes.
+### Backtracking :
 
-**Calculs numériques :**
+- **Problème des N reines :**
+Place N reines sur un échiquier de taille NxN sans qu'elles ne se menacent.
 
-Méthode de Newton-Raphson : Approximations successives pour trouver les racines d'une fonction.
-Algorithme d'Euclide : Trouve le plus grand commun diviseur de deux nombres.
+- **Sudoku :**
+Résout le puzzle en remplissant les cases tout en respectant les contraintes.
+
+### Calculs numériques :
+
+- **Méthode de Newton-Raphson :**
+Approximations successives pour trouver les racines d'une fonction.
+
+- **Algorithme d'Euclide :**
+Trouve le plus grand commun diviseur de deux nombres.
 
 ## 8. Algorithmes en intelligence artificielle
-**Recherche informée :**
+### Recherche informée :
 
-A :* Algorithme de recherche utilisant des heuristiques pour trouver le chemin le plus court.
-Recherche gloutonne : Utilise des heuristiques pour choisir les actions les plus prometteuses à chaque étape.
-**Apprentissage supervisé :**
+- **A\* :**
+A* Algorithme de recherche utilisant des heuristiques pour trouver le chemin le plus court.
 
-Régression linéaire : Modèle les relations entre une variable dépendante et une ou plusieurs variables indépendantes.
-Arbres de décision : Modèle les décisions et leurs conséquences sous la forme d'un arbre.
-**Apprentissage non supervisé :**
+- **Recherche gloutonne :**
+Utilise des heuristiques pour choisir les actions les plus prometteuses à chaque étape.
 
-K-means : Partitionne les données en K clusters basés sur la similarité.
-PCA (Principal Component Analysis) : Réduit la dimensionnalité des données tout en conservant la variance.
+### Apprentissage supervisé :
+
+- **Régression linéaire :**
+Modèle les relations entre une variable dépendante et une ou plusieurs variables indépendantes.
+
+- **Arbres de décision :**
+Modèle les décisions et leurs conséquences sous la forme d'un arbre.
+
+### Apprentissage non supervisé :
+
+- **K-means :**
+Partitionne les données en K clusters basés sur la similarité.
+
+- **PCA (Principal Component Analysis) :**
+Réduit la dimensionnalité des données tout en conservant la variance.
