@@ -47,25 +47,22 @@ Les structures de contrôle permettent de diriger le flux d'exécution d'un prog
 (if, else) permettent d'exécuter des blocs de code selon des conditions.
 ```
 # Stuctures conditionnelles
-if a > b
-  ...
-else
- ...
-
+si condition alors
+    instructions
+sinon
+    instructions_alternatives
 ```
 
 - **Les boucles :**
 (for, while) permettent de répéter des blocs de code.
 ```
 # Boucles for
-for i in range(5)
-  ...
+pour variable de début à fin faire
+    instructions
 
 # Boucles While
-compteur = 0;
-while compteur < 5
-  ...
-  compteur = compteur + 1; # Attention au boucle infini avec while
+tant que condition faire
+    instructions
 ```
 
 ## 3. Conception d'algorithmes
@@ -74,31 +71,17 @@ Le pseudocode est une description textuelle des algorithmes utilisant un langage
 ```
 # Pseudo code
 
-Algo sommeTableau
-  Entrée : tableau T de n éléments
-  Sortie : somme des éléments de T
+Algorithme SommeNEntiers
+  Entrée : Un entier n
+  Sortie : La somme des entiers de 1 à n
 
   somme <- 0
-  pour i de 0 à n-1 faire
-    somme <- somme + T[i]
+  pour i de 1 à n faire
+      somme <- somme + i
   fin pour
   retourner somme
-
-# Diagramme de flux
-flowchart TD
-    A[Démarrer] --> B[Initialiser gauche à 0 et droite à longueur de la liste - 1]
-    B --> C{gauche <= droite}
-    C -->|Oui| D[Calculer milieu = (gauche + droite) // 2]
-    D --> E{arr[milieu] == x}
-    E -->|Oui| F[Afficher milieu et Terminer]
-    E -->|Non| G{arr[milieu] < x}
-    G -->|Oui| H[Définir gauche à milieu + 1]
-    G -->|Non| I[Définir droite à milieu - 1]
-    H --> J
-    I --> J
-    J --> C
-    C -->|Non| K[Afficher -1 (élément non trouvé) et Terminer]
 ```
+
 
 ### Techniques de conception :
 - **Diviser pour régner :** 
