@@ -83,7 +83,7 @@ Algorithme SommeNEntiers
 **Diagramme de flux :**
 
 
-![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagram-de-flux.png)
+![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagramme-de-flux.png)
 
 ### Techniques de conception :
 - **Diviser pour régner :** 
