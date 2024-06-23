@@ -82,7 +82,9 @@ Algorithme SommeNEntiers
   retourner somme
 ```
 **Diagramme de flux**
-![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagram-de-flux.png?raw=flase)
+
+
+![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagram-de-flux.png)
 
 ### Techniques de conception :
 - **Diviser pour régner :** 
