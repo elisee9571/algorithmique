@@ -81,7 +81,7 @@ Algorithme SommeNEntiers
   fin pour
   retourner somme
 ```
-
+**Diagramme de flux**
 ![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagram-de-flux.png?raw=true)
 
 ### Techniques de conception :
