@@ -66,7 +66,7 @@ tant que condition faire
 ```
 
 ## 3. Conception d'algorithmes
-### Pseudocode et diagrammes de flux :
+### [pseudo-code](https://fr.wikipedia.org/wiki/Pseudo-code) et [diagrammes de flux](https://en.wikipedia.org/wiki/Flowchart) :
 Le pseudocode est une description textuelle des algorithmes utilisant un langage informel. Les diagrammes de flux représentent graphiquement les étapes d'un algorithme.
 ```
 # Pseudo code
@@ -80,31 +80,21 @@ Algorithme SommeNEntiers
   fin pour
   retourner somme
 ```
-**Diagramme de flux :**
+**[diagrammes de flux](https://en.wikipedia.org/wiki/Flowchart) :**
 
 
-![Diagramme de flux](https://github.com/elisee9571/algorithmique/blob/main/diagramme-de-flux.png)
+![image](https://github.com/elisee9571/algorithmique/assets/69207830/c19c7766-f39f-4618-83ad-f967e42b8adc)
 
 ### Techniques de conception :
-- **Diviser pour régner :** 
-Diviser le problème en sous-problèmes plus petits, les résoudre indépendamment, puis combiner leurs solutions.
+- **[Diviser pour régner](https://fr.wikipedia.org/wiki/Diviser_pour_r%C3%A9gner_(informatique)) :** Diviser le problème en sous-problèmes plus petits, les résoudre indépendamment, puis combiner leurs solutions.
 
+- **[Recursivité](https://fr.wikipedia.org/wiki/R%C3%A9cursivit%C3%A9) :** Une fonction qui s'appelle elle-même pour résoudre des sous-problèmes identiques mais plus petits.
 
-![Diviser pour régner](https://fr.wikipedia.org/wiki/Diviser_pour_r%C3%A9gner_(informatique))
-
-- **Récursivité :**
-Une fonction qui s'appelle elle-même pour résoudre des sous-problèmes identiques mais plus petits.
-
-
-![Recursivité](https://fr.wikipedia.org/wiki/R%C3%A9cursivit%C3%A9)
-
-- **Programmation dynamique :**
-Résoudre des sous-problèmes et stocker leurs solutions pour éviter des calculs redondants.
+- **Programmation dynamique :** Résoudre des sous-problèmes et stocker leurs solutions pour éviter des calculs redondants.
 
 ### Analyse de complexité :
 
-- **Complexité temporelle :**
-Temps nécessaire à l'exécution de l'algorithme (exprimé en fonction de la taille de l'entrée, comme O(n), O(log n)).
+- **Complexité temporelle :** Temps nécessaire à l'exécution de l'algorithme (exprimé en fonction de la taille de l'entrée, comme O(n), O(log n)).
 
 - **Complexité spatiale :**
 Espace mémoire nécessaire à l'exécution de l'algorithme.
