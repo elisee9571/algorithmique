@@ -11,7 +11,7 @@ Les algorithmes existent depuis l'Antiquité, avec des exemples notables comme l
 La programmation consiste à implémenter des algorithmes dans un langage de programmation pour créer des logiciels. Un bon programmeur doit savoir concevoir des algorithmes efficaces et les traduire en code.
 
 ## 2. Notions de base
-Variables et types de données :
+### Variables et types de données :
 Les variables sont des emplacements de mémoire pour stocker des données. Les types de données courants incluent les entiers, les flottants, les caractères et les booléens.
 
 ### Opérations de base :
@@ -21,20 +21,29 @@ Les opérations incluent les opérations arithmétiques (addition, soustraction,
 Les structures de contrôle permettent de diriger le flux d'exécution d'un programme. Les structures conditionnelles (if, else) permettent d'exécuter des blocs de code selon des conditions. Les boucles (for, while) permettent de répéter des blocs de code.
 
 ## 3. Conception d'algorithmes
-Pseudocode et diagrammes de flux :
+### Pseudocode et diagrammes de flux :
 Le pseudocode est une description textuelle des algorithmes utilisant un langage informel. Les diagrammes de flux représentent graphiquement les étapes d'un algorithme.
 
 ### Techniques de conception :
+- **Diviser pour régner :** 
+Diviser le problème en sous-problèmes plus petits, les résoudre indépendamment, puis combiner leurs solutions.
 
-Diviser pour régner : Diviser le problème en sous-problèmes plus petits, les résoudre indépendamment, puis combiner leurs solutions.
-Récursivité : Une fonction qui s'appelle elle-même pour résoudre des sous-problèmes identiques mais plus petits.
-Programmation dynamique : Résoudre des sous-problèmes et stocker leurs solutions pour éviter des calculs redondants.
-Analyse de complexité :
+- **Récursivité :**
+Une fonction qui s'appelle elle-même pour résoudre des sous-problèmes identiques mais plus petits.
 
-Complexité temporelle : Temps nécessaire à l'exécution de l'algorithme (exprimé en fonction de la taille de l'entrée, comme O(n), O(log n)).
-Complexité spatiale : Espace mémoire nécessaire à l'exécution de l'algorithme.
-4. Structures de données
-Tableaux et listes :
+- **Programmation dynamique :**
+Résoudre des sous-problèmes et stocker leurs solutions pour éviter des calculs redondants.
+
+**Analyse de complexité :**
+
+- **Complexité temporelle :**
+Temps nécessaire à l'exécution de l'algorithme (exprimé en fonction de la taille de l'entrée, comme O(n), O(log n)).
+
+- **Complexité spatiale :**
+Espace mémoire nécessaire à l'exécution de l'algorithme.
+
+## 4. Structures de données
+**Tableaux et listes :**
 
 Tableaux : Structures de données linéaires avec une taille fixe. Accès rapide aux éléments mais insertion et suppression coûteuses.
 Listes : Structures de données linéaires avec une taille dynamique. Insertion et suppression rapides mais accès plus lent.
