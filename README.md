@@ -89,8 +89,14 @@ Algorithme SommeNEntiers
 - **Diviser pour régner :** 
 Diviser le problème en sous-problèmes plus petits, les résoudre indépendamment, puis combiner leurs solutions.
 
+
+![Diviser pour régner](https://fr.wikipedia.org/wiki/Diviser_pour_r%C3%A9gner_(informatique))
+
 - **Récursivité :**
 Une fonction qui s'appelle elle-même pour résoudre des sous-problèmes identiques mais plus petits.
+
+
+![Recursivité](https://fr.wikipedia.org/wiki/R%C3%A9cursivit%C3%A9)
 
 - **Programmation dynamique :**
 Résoudre des sous-problèmes et stocker leurs solutions pour éviter des calculs redondants.
