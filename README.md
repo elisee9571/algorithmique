@@ -83,7 +83,8 @@ Algorithme SommeNEntiers
 **[diagrammes de flux](https://en.wikipedia.org/wiki/Flowchart) :**
 
 
-![image](https://github.com/elisee9571/algorithmique/assets/69207830/c19c7766-f39f-4618-83ad-f967e42b8adc)
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/For_loop_example.svg/340px-For_loop_example.svg.png)
+![image](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/LampFlowchart.svg/440px-LampFlowchart.svg.png)
 
 ### Techniques de conception :
 - **[Diviser pour régner](https://fr.wikipedia.org/wiki/Diviser_pour_r%C3%A9gner_(informatique)) :** Diviser le problème en sous-problèmes plus petits, les résoudre indépendamment, puis combiner leurs solutions.
